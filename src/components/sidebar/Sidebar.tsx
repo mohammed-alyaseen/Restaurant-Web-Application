@@ -25,7 +25,7 @@ class Sidebar extends Component {
         <nav id="sidebar">
           <div className="bordering">
             <Image className="side-new" src={open} title="AdminPhoto" alt="" />
-            <h3>Mohammed Al-yaseen</h3>
+            <h3>TuhMoh</h3>
             <p id="index-title">
               If you are hungry, You have the right site for you <br /> (^_^)
             </p>
