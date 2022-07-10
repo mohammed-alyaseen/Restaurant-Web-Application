@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import Shawarma from "../../assets/img/Shawarma.jpg";
-import Soup from "../../assets/img/Soup.jpg";
-import SwissPizza from "../../assets/img/Swiss Pizza.jpg";
-import Pizza from "../../assets/img/Pizza.jpg";
+import Shawarma from "../assets/img/Shawarma.jpg";
+import Soup from "../assets/img/Soup.jpg";
+import SwissPizza from "../assets/img/Swiss Pizza.jpg";
+import Pizza from "../assets/img/Pizza.jpg";
 import Image from "next/image";
 import Navbar from "../components/navbar/Navbar";
 import Sidebar from "../components/sidebar/Sidebar";
@@ -35,14 +35,12 @@ const Home = () => {
             </div>
 
             <div className="col-sm-12">
-              <Link href="/products/list" passHref>
-                <i className="main-color btn-primary goto fa fa-hand-o-right fa-2x">
-                  {" "}
-                </i>
-                <i className="goto "> Show All </i>
-                <i className="main-color btn-primary goto fa fa-hand-o-right fa-2x">
-                  {" "}
-                </i>
+              <Link href="/products/list">
+                <>
+                  <i className="main-color btn-primary goto fa fa-hand-o-right fa-2x"></i>
+                  <i className="goto "> Show All </i>
+                  <i className="main-color btn-primary goto fa fa-hand-o-right fa-2x"></i>
+                </>
               </Link>
             </div>
           </div>
