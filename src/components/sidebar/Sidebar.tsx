@@ -39,35 +39,47 @@ class Sidebar extends Component {
                 data-toggle="collapse"
                 aria-expanded="false"
               >
-                Home
+                <a>Home</a>
               </Link>
               <ul className="collapse list-unstyled" id="homeSubmenu">
                 <li>
-                  <Link href="#">Shaorma</Link>
+                  <Link href="#">
+                    <a>Shaorma</a>
+                  </Link>
                 </li>
                 <li>
-                  <Link href="#">Soup</Link>
+                  <Link href="#">
+                    <a>Soup</a>
+                  </Link>
                 </li>
                 <li>
-                  <Link href="#">Pizza</Link>
+                  <Link href="#">
+                    <a>Pizza</a>
+                  </Link>
                 </li>
                 <li>
-                  <Link href="#">Swiss Pizza</Link>
+                  <Link href="#">
+                    <a>Swiss Pizza</a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link href="#">About</Link>
+              <Link href="#">
+                <a>About</a>
+              </Link>
               <Link
                 href="#pageSubmenu"
                 data-toggle="collapse"
                 aria-expanded="false"
               >
-                Pages
+                <a>Pages</a>
               </Link>
               <ul className="collapse list-unstyled" id="pageSubmenu">
                 <li>
-                  <Link href="/products/list">Products List</Link>
+                  <Link href="/products/list">
+                    <a>Products List</a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -77,28 +89,34 @@ class Sidebar extends Component {
                 data-toggle="collapse"
                 aria-expanded="false"
               >
-                Food Categories
+                <a>Food Categories</a>
               </Link>
               <ul className="collapse list-unstyled" id="pageSubmenu1">
                 {categoryList}
               </ul>
             </li>
             <li>
-              <Link href="#">Profile</Link>
+              <Link href="#">
+                <a>Profile</a>
+              </Link>
             </li>
             <li>
-              <Link href="#">Content Us</Link>
+              <Link href="#">
+                <a>Content Us</a>
+              </Link>
             </li>
           </ul>
 
           <ul className="list-unstyled CTAs">
             <li>
-              <Link href="#">Back href article</Link>
+              <Link href="#">
+                <a>Back href article</a>
+              </Link>
             </li>
           </ul>
           <ul className="list-unstyled CTAs">
             <li>
-              <Link href="#"></Link>
+              <Link href="#">test</Link>
             </li>
           </ul>
         </nav>

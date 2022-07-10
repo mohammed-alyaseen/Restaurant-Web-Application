@@ -31,7 +31,9 @@ const Login = () => {
           />
           <label>
             IF you don&apos;t have an account then let us make one :{" "}
-            <Link href="/Registering">Registering</Link>
+            <Link href="/Registering">
+              <a href="">Registering</a>
+            </Link>
           </label>
         </div>
       </form>

@@ -26,31 +26,34 @@ const Navbar = () => {
                 <h3>MAJSIN</h3>
               </Link>
               <li role="presentation" className="nav-item effect">
-                <Link /* className="nav-link" */ href="/products/list" passHref>
-                  <span className="glyphicon glyphicon-home"></span>
-                  <i
-                    style={{ paddingTop: "2.5px" }}
-                    id="icon1"
-                    className="fa fa-list fa-2x"
-                  ></i>
+                <Link /* className="nav-link" */ href="/products/list">
+                  {/* Wrapping Link component content === passHref property using */}
+                  <>
+                    <span className="glyphicon glyphicon-home"></span>
+                    <i
+                      style={{ paddingTop: "2.5px" }}
+                      id="icon1"
+                      className="fa fa-list fa-2x"
+                    />
+                  </>
                 </Link>
               </li>
 
               <li role="presentation" className="nav-item effect">
                 <Link /* className="nav-link" */ href="#" passHref>
-                  <i className="fa fa-envelope fa-2x"></i>
+                  <i className="fa fa-envelope fa-2x" />
                 </Link>
               </li>
 
               <li role="presentation" className="nav-item effect">
                 <Link /* className="nav-link" */ href="#" passHref>
-                  <i className="fa fa-globe fa-2x"></i>
+                  <i className="fa fa-globe fa-2x" />
                 </Link>
               </li>
 
               <li role="presentation" className="nav-item effect">
                 <Link /* className="nav-link" */ href="/products/new" passHref>
-                  <i className="fa fa-plus fa-2x"></i>
+                  <i className="fa fa-plus fa-2x" />
                 </Link>
               </li>
             </li>
@@ -60,14 +63,14 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link /* className="nav-link" */ href="/login" passHref>
                     <h5 placeholder="Sign-In">
-                      <i className="in fa fa-sign-in fa-2x"></i>
+                      <i className="in fa fa-sign-in fa-2x" />
                     </h5>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link /* className="nav-link" */ href="#" passHref>
                     <h5>
-                      <i className="out fa fa-sign-out fa-2x"> </i>
+                      <i className="out fa fa-sign-out fa-2x" />
                     </h5>
                   </Link>
                 </li>
