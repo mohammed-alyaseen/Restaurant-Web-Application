@@ -7,6 +7,7 @@ import Pizza from "../assets/img/Pizza.jpg";
 import Image from "next/image";
 import Navbar from "../components/navbar/Navbar";
 import Sidebar from "../components/sidebar/Sidebar";
+// import "./index.css";
 
 const Home = () => {
   return (

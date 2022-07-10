@@ -1,5 +1,9 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
-@import "~css/font-awesome.min.css";
+/* Failed to import bootstrap library here */
+/* @import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~css/font-awesome.min.css"; */
+/* @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/font-awesome/css/font-awesome.min.css"; */
+
 
 body {
   background-color: #f4f4f4;
@@ -256,7 +260,7 @@ a.article:hover {
 }
 
 .product-bg {
-  background-image: url("assets/img/back3.jpg");
+  background-image: url("../assets/img/back3.jpg");
   background-size: 120%;
 }
 /* ---------------------------------------------------
