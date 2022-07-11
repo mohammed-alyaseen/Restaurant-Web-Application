@@ -155,6 +155,7 @@ a:focus {
   position: absolute;
   float: right;
   right: 0px;
+  top: 4px;
   display: flex;
 }
 .line {
@@ -355,8 +356,9 @@ a.article:hover {
 }
 
 .effect:hover {
-  background-color: #0095a6;
+  /* background-color: #7386d5; // UI decision */
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .row {
