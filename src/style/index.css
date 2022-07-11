@@ -97,6 +97,7 @@ ul li .site-name {
   color: #fff;
   font-size: 28px;
   margin-bottom: 0px !important;
+  cursor: pointer;
 }
 
 .body-down-navbar {

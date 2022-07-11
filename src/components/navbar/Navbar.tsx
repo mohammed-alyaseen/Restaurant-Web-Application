@@ -9,14 +9,14 @@ const Navbar = () => {
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navBar"
-          aria-controls="navBar"
+          data-target="#nav-bar"
+          aria-controls="nav-bar"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navBar">
+        <div className="collapse navbar-collapse" id="nav-bar">
           <ul
             className="nav navbar-nav mr-auto mt-2 mt-lg-0 nav-pills"
             role="tablist"

@@ -7,21 +7,33 @@ import Image from "next/image";
 class Sidebar extends Component {
   render() {
     // const { categories } = this.props;
-    const categoryList = [].length ? (
-      [].map((category: any) => {
+    const categories = [
+      {
+        categoryId: 1,
+        name: "Vegetables",
+      },
+      {
+        categoryId: 2,
+        name: "FastFood",
+      },
+      {
+        categoryId: 3,
+        name: "Drinks",
+      },
+    ];
+    const categoryList = categories.length ? (
+      categories.map((category: any) => {
         return (
-          <React.Fragment key={category.productId}>
-            <li value={category.name}>
-              <Link href="">{category.name}</Link>
-            </li>
-          </React.Fragment>
+          <li value={category.name} key={category.productId}>
+            <Link href="">{category.name}</Link>
+          </li>
         );
       })
     ) : (
       <div> There&apos;s no products yet </div>
     );
     return (
-      <React.Fragment>
+      <>
         <nav id="sidebar">
           <div className="bordering">
             <Image className="side-new" src={open} title="AdminPhoto" alt="" />
@@ -120,7 +132,7 @@ class Sidebar extends Component {
             </li>
           </ul>
         </nav>
-      </React.Fragment>
+      </>
     );
   }
 }

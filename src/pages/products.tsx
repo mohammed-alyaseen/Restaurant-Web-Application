@@ -9,8 +9,45 @@ import Sidebar from "../components/sidebar/Sidebar";
 class ProductList extends Component {
   render() {
     // const { products } = this.props;
-    const productList = [].length ? (
-      [].map((product: any) => {
+    const products = [
+      {
+        productId: 1,
+        title: "Shawarma",
+        price: "100",
+        imageUrl: "/../assets/Shawarma.jpg",
+        categoryId: 2,
+      },
+      {
+        productId: 2,
+        title: "Soup",
+        price: "50",
+        imageUrl: "/../assets/Soup.jpg",
+        categoryId: 2,
+      },
+      {
+        productId: 3,
+        title: "Swiss Pizza",
+        price: "200",
+        imageUrl: "/../assets/Swiss Pizza.jpg",
+        categoryId: 2,
+      },
+      {
+        productId: 4,
+        title: "Pizza",
+        price: "150",
+        imageUrl: "/../assets/Pizza.jpg",
+        categoryId: 2,
+      },
+      {
+        productId: 5,
+        title: "Sushi",
+        price: "200",
+        imageUrl: "/../assets/Sushi.jpg",
+        categoryId: 2,
+      },
+    ];
+    const productList = products.length ? (
+      products.map((product: any) => {
         return (
           <div
             className="product-list col-lg-3 col-md-4 col-sm-6"
@@ -19,8 +56,10 @@ class ProductList extends Component {
             <Image
               className="show list"
               // the way of access to the public folder url not to use directly
-              src={process.env.PUBLIC_URL + product.imageUrl}
+              src={/* process.env.PUBLIC_URL + */ product.imageUrl}
               alt={product.title}
+              width={300}
+              height={300}
             />
             <br />
             <span className="title"> {product.title} </span>
