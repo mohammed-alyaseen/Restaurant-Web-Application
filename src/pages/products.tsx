@@ -23,8 +23,8 @@ class ProductList extends Component {
               alt={product.title}
             />
             <br />
-            <span className="name"> {product.title} </span>
-            <h4 className="price btn btn-danger active">{product.price}</h4>
+            <span className="title"> {product.title} </span>
+            <h4 className="price-btn btn btn-danger active">{product.price}</h4>
             <Link href="" passHref>
               <p className="click btn btn-info">Click to get</p>
             </Link>
@@ -35,15 +35,15 @@ class ProductList extends Component {
       <div> There&apos;s no products yet </div>
     );
     return (
-      <React.Fragment>
+      <>
         <Navbar />
         <div className="wrapper">
           <Sidebar />
           <div className="product-bg" id="content">
             <div id="content">
               <div className="row">
-                <div className="back col-sm-12">
-                  <Image src={Background} />
+                <div className="profile-image col-sm-12">
+                  <Image src={Background} alt="" />
                 </div>
                 {productList}
               </div>
@@ -51,7 +51,7 @@ class ProductList extends Component {
             </div>
           </div>
         </div>
-      </React.Fragment>
+      </>
     );
   }
 }

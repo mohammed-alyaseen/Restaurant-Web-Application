@@ -5,7 +5,6 @@ const Registering = () => {
   return (
     <>
       <Navbar />
-      <div className="center">JSON Object :</div>
       <h2 className="form-title">Registering</h2>
       <form className="form">
         <div className="form-border">

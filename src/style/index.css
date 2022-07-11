@@ -263,6 +263,7 @@ a.article:hover {
   background-image: url("../assets/img/back3.jpg");
   background-size: 120%;
 }
+
 /* ---------------------------------------------------
         MEDIA-QUERIES
     ----------------------------------------------------- */
@@ -310,39 +311,48 @@ a.article:hover {
   display: flex;
 }
 /* end side bar */
+
 /*AdminNavbar*/
 .main-table {
   -webkit-box-shadow: 0 3px 10px #ddd;
   -moz-box-shadow: 0 3px 10px #ddd;
   box-shadow: 0 3px 10px #ddd;
 }
+
 .main-table td {
   background-color: #fff;
   vertical-align: middle !important;
 }
+
 .main-table .btn {
   padding: 2px 10px;
 }
+
 .main-table tr:first-child td {
   background: #333;
   color: #fff;
 }
+
 .text-center {
   padding-bottom: 20px;
   color: #70777e;
 }
+
 .active {
   margin-left: 0px;
   background-color: #0095a6 !important;
   border: 1px solid #0095a6 !important;
 }
+
 .effect:hover {
   background-color: #0095a6;
   border-radius: 10px;
 }
+
 .row {
   text-align: center;
 }
+
 .row .show {
   /* Do the min-width & min-height control the image comp dimentions in nextjs */
   max-height: 270px !important;
@@ -355,6 +365,7 @@ a.article:hover {
   left: 0px !important;
   top: 15px !important;
 }
+
 .row span {
   /* position: absolute;
   top: 150px;
@@ -362,9 +373,11 @@ a.article:hover {
   height: auto !important;
   color: #ffffff;
 }
+
 .show-all {
   font-size: 2rem;
 }
+
 .row .show-all {
   border-radius: 5px;
   padding: 2px;
@@ -382,33 +395,38 @@ a.article:hover {
   background-color: #00c6d7 !important;
   border-color: #00c6d7 !important;
 }
-.list-image {
+
+.product-list {
   min-height: 325px;
   min-width: 25%;
 }
-.list-image .name {
+
+.product-list .title {
   color: #ffffff;
   float: left;
   /* padding-top:10px; */
   /* float: left; */
   /* padding-left:20px; */
 }
-/* .list-image .price{
+/* .product-list .price-btn{
         float: right;
         position: absolute;
         right: 13px;
     } */
-.list-image p,
-.price {
+
+.product-list p,
+.price-btn {
   display: inline;
   margin-bottom: 0px;
   background-color: #00c6d7 !important;
   border-color: #00c6d7 !important;
 }
-.list-image p {
+
+.product-list p {
   margin-left: 120px;
 }
-.back img {
+
+.profile-image img {
   width: 102%;
   border-radius: 10px;
   margin-bottom: 20px;

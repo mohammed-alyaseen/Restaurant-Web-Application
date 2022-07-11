@@ -7,7 +7,6 @@ const Login = () => {
   return (
     <>
       <Navbar />
-      <div className="center">JSON Object :</div>
       <h2 className="form-title">Login</h2>
       <form className="form">
         <div className="form-border">
@@ -32,7 +31,7 @@ const Login = () => {
           <label>
             IF you don&apos;t have an account then let us make one :{" "}
             <Link href="/registering">
-              <a href="">Registering</a>
+              <a>Registering</a>
             </Link>
           </label>
         </div>
