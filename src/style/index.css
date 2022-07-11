@@ -4,7 +4,6 @@
 /* @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 @import "../node_modules/font-awesome/css/font-awesome.min.css"; */
 
-
 body {
   background-color: #f4f4f4;
 }
@@ -284,8 +283,10 @@ a.article:hover {
 }
 
 .bordering .side-new {
-  width: 150px;
-  height: 150px;
+  /* width: 150px !important;
+  height: 150px !important; */
+  min-width: 70% !important;
+  min-height: 85% !important;
   border-radius: 50px;
   margin-left: 51px;
   margin-top: 15px;
@@ -342,25 +343,40 @@ a.article:hover {
   text-align: center;
 }
 .row .show {
-  max-height: 270px;
-  max-width: 270px;
+  /* Do the min-width & min-height control the image comp dimentions in nextjs */
+  max-height: 270px !important;
+  max-width: 270px !important;
+  min-height: 180px !important;
+  min-width: 270px !important;
   margin-bottom: 25px;
   border-radius: 15px;
   margin-top: 70px;
+  left: 0px !important;
+  top: 15px !important;
 }
 .row span {
-  position: absolute;
+  /* position: absolute;
   top: 150px;
-  left: 130px;
+  left: 130px; */
+  height: auto !important;
   color: #ffffff;
 }
-.goto {
+.show-all {
   font-size: 2rem;
 }
-.row .goto {
+.row .show-all {
   border-radius: 5px;
   padding: 2px;
 }
+
+/* to put the text above the image
+   note: absolute prop make element above all the nodes than controling via (top, right ... etc)
+   relative prop keep element in the current node and give controling via (top, right ... etc) */
+.row .main-image-title {
+  position: relative;
+  top: -60px;
+}
+
 .main-color {
   background-color: #00c6d7 !important;
   border-color: #00c6d7 !important;
