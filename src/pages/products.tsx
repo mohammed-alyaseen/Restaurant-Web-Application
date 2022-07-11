@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Background from "../../assets/img/back3.jpg";
+import Background from "../assets/img/back3.jpg";
 // import { connect } from "react-redux";
 import Image from "next/image";
 import Link from "next/link";

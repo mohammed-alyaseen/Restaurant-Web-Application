@@ -26,16 +26,12 @@ const Navbar = () => {
                 <h3 className="site-name">MAJSIN</h3>
               </Link>
               <li role="presentation" className="nav-item effect">
-                <Link /* className="nav-link" */ href="/products/list">
-                  {/* Wrapping Link component content === passHref property using */}
-                  <>
-                    <span className="glyphicon glyphicon-home"></span>
-                    <i
-                      style={{ paddingTop: "2.5px" }}
-                      id="icon1"
-                      className="fa fa-list fa-2x navbar-icon"
-                    />
-                  </>
+                <Link /* className="nav-link" */ href="/products" passHref>
+                  <i
+                    style={{ paddingTop: "2.5px" }}
+                    id="icon1"
+                    className="fa fa-list fa-2x navbar-icon"
+                  />
                 </Link>
               </li>
 
