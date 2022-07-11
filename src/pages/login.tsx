@@ -1,11 +1,11 @@
 import Link from "next/link";
 import React from "react";
-import Navbar from "../../components/navbar/Navbar";
+import Navbar from "../components/navbar/Navbar";
 // import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <React.Fragment>
+    <>
       <Navbar />
       <div className="center">JSON Object :</div>
       <h2 className="form-title">Login</h2>
@@ -31,13 +31,13 @@ const Login = () => {
           />
           <label>
             IF you don&apos;t have an account then let us make one :{" "}
-            <Link href="/Registering">
+            <Link href="/registering">
               <a href="">Registering</a>
             </Link>
           </label>
         </div>
       </form>
-    </React.Fragment>
+    </>
   );
 };
 

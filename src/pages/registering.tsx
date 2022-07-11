@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../../components/navbar/Navbar";
+import Navbar from "../components/navbar/Navbar";
 
 const Registering = () => {
   return (
-    <React.Fragment>
+    <>
       <Navbar />
       <div className="center">JSON Object :</div>
       <h2 className="form-title">Registering</h2>
@@ -36,7 +36,7 @@ const Registering = () => {
           />
         </div>
       </form>
-    </React.Fragment>
+    </>
   );
 };
 
