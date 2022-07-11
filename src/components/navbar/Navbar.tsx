@@ -23,7 +23,7 @@ const Navbar = () => {
           >
             <li className="nav-item">
               <Link /* className="nav-link user-name" */ href="/" passHref>
-                <h3>MAJSIN</h3>
+                <h3 className="site-name">MAJSIN</h3>
               </Link>
               <li role="presentation" className="nav-item effect">
                 <Link /* className="nav-link" */ href="/products/list">
@@ -33,7 +33,7 @@ const Navbar = () => {
                     <i
                       style={{ paddingTop: "2.5px" }}
                       id="icon1"
-                      className="fa fa-list fa-2x"
+                      className="fa fa-list fa-2x navbar-icon"
                     />
                   </>
                 </Link>
@@ -41,19 +41,19 @@ const Navbar = () => {
 
               <li role="presentation" className="nav-item effect">
                 <Link /* className="nav-link" */ href="#" passHref>
-                  <i className="fa fa-envelope fa-2x" />
+                  <i className="fa fa-envelope fa-2x navbar-icon" />
                 </Link>
               </li>
 
               <li role="presentation" className="nav-item effect">
                 <Link /* className="nav-link" */ href="#" passHref>
-                  <i className="fa fa-globe fa-2x" />
+                  <i className="fa fa-globe fa-2x navbar-icon" />
                 </Link>
               </li>
 
               <li role="presentation" className="nav-item effect">
                 <Link /* className="nav-link" */ href="/products/new" passHref>
-                  <i className="fa fa-plus fa-2x" />
+                  <i className="fa fa-plus fa-2x navbar-icon" />
                 </Link>
               </li>
             </li>
@@ -63,14 +63,14 @@ const Navbar = () => {
                 <li className="nav-item effect">
                   <Link /* className="nav-link" */ href="/login" passHref>
                     <h5>
-                      <i className="fa fa-sign-in fa-2x" />
+                      <i className="fa fa-sign-in fa-2x navbar-icon" />
                     </h5>
                   </Link>
                 </li>
                 <li className="nav-item effect">
                   <Link /* className="nav-link" */ href="#" passHref>
                     <h5>
-                      <i className="fa fa-sign-out fa-2x" />
+                      <i className="fa fa-sign-out fa-2x navbar-icon" />
                     </h5>
                   </Link>
                 </li>

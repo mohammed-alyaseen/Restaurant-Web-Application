@@ -92,10 +92,13 @@ li a i {
   color: #fff;
   background-color: #00c6d7;
 }
-/* ul li .user-name{
-        color: #fff;
-        font-size:20px;	
-    } */
+
+ul li .site-name {
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 0px !important;
+}
+
 .body-down-navbar {
   position: relative;
   top: 72px;
@@ -131,6 +134,7 @@ a:focus {
   border-radius: 0;
   /* margin-bottom: 40px; */
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
 }
 
 .navbar-btn {
@@ -138,6 +142,15 @@ a:focus {
   outline: none !important;
   border: none;
 }
+
+#icon1 {
+  padding-top: 2px;
+}
+
+.navbar-icon {
+  color: #fafafa;
+}
+
 .arrows {
   position: absolute;
   float: right;
@@ -307,9 +320,6 @@ a.article:hover {
   font-size: 19px;
 }
 
-.navbar {
-  display: flex;
-}
 /* end side bar */
 
 /*AdminNavbar*/
