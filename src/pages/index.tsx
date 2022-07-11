@@ -20,27 +20,27 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-3 col-md-4 col-sm-6">
               <Image className="show home" src={Shawarma} alt="Shawarma" />
-              <span>Shawarma</span>
+              <span className="main-image-title">Shawarma</span>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6">
               <Image className="show home" src={Soup} alt="Soup" />
-              <span>Soup</span>
+              <span className="main-image-title">Soup</span>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6">
               <Image className="show home" src={Pizza} alt="Pizza" />
-              <span>Pizza</span>
+              <span className="main-image-title">Pizza</span>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6">
               <Image className="show home" src={SwissPizza} alt="Swiss Pizza" />
-              <span>Swiss Pizza</span>
+              <span className="main-image-title">Swiss Pizza</span>
             </div>
 
             <div className="col-sm-12">
               <Link href="/products/list">
                 <>
-                  <i className="main-color btn-primary goto fa fa-hand-o-right fa-2x"></i>
-                  <i className="goto "> Show All </i>
-                  <i className="main-color btn-primary goto fa fa-hand-o-right fa-2x"></i>
+                  <i className="main-color btn-primary show-all fa fa-hand-o-right fa-2x"></i>
+                  <i className="show-all "> Show All </i>
+                  <i className="main-color btn-primary show-all fa fa-hand-o-right fa-2x"></i>
                 </>
               </Link>
             </div>
