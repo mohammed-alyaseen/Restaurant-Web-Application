@@ -142,6 +142,7 @@ a:focus {
   position: absolute;
   float: right;
   right: 0px;
+  display: flex;
 }
 .line {
   width: 100%;
@@ -346,8 +347,8 @@ a.article:hover {
   /* Do the min-width & min-height control the image comp dimentions in nextjs */
   max-height: 270px !important;
   max-width: 270px !important;
-  min-height: 180px !important;
-  min-width: 270px !important;
+  min-height: 185px !important;
+  min-width: 290px !important;
   margin-bottom: 25px;
   border-radius: 15px;
   margin-top: 70px;

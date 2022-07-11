@@ -60,17 +60,17 @@ const Navbar = () => {
 
             <div>
               <ul className="arrows form-inline my-2 my-lg-0">
-                <li className="nav-item">
+                <li className="nav-item effect">
                   <Link /* className="nav-link" */ href="/login" passHref>
-                    <h5 placeholder="Sign-In">
-                      <i className="in fa fa-sign-in fa-2x" />
+                    <h5>
+                      <i className="fa fa-sign-in fa-2x" />
                     </h5>
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item effect">
                   <Link /* className="nav-link" */ href="#" passHref>
                     <h5>
-                      <i className="out fa fa-sign-out fa-2x" />
+                      <i className="fa fa-sign-out fa-2x" />
                     </h5>
                   </Link>
                 </li>
