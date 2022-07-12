@@ -14,35 +14,35 @@ class ProductList extends Component {
         productId: 1,
         title: "Shawarma",
         price: "100",
-        imageUrl: "/../assets/Shawarma.jpg",
+        imageUrl: "../assets/Shawarma.jpg",
         categoryId: 2,
       },
       {
         productId: 2,
         title: "Soup",
         price: "50",
-        imageUrl: "/../assets/Soup.jpg",
+        imageUrl: "../assets/Soup.jpg",
         categoryId: 2,
       },
       {
         productId: 3,
         title: "Swiss Pizza",
         price: "200",
-        imageUrl: "/../assets/Swiss Pizza.jpg",
+        imageUrl: "../assets/Swiss Pizza.jpg",
         categoryId: 2,
       },
       {
         productId: 4,
         title: "Pizza",
         price: "150",
-        imageUrl: "/../assets/Pizza.jpg",
+        imageUrl: "../assets/Pizza.jpg",
         categoryId: 2,
       },
       {
         productId: 5,
         title: "Sushi",
         price: "200",
-        imageUrl: "/../assets/Sushi.jpg",
+        imageUrl: "../assets/Sushi.jpg",
         categoryId: 2,
       },
     ];
@@ -56,7 +56,7 @@ class ProductList extends Component {
             <Image
               className="show list"
               // the way of access to the public folder url not to use directly
-              src={/* process.env.PUBLIC_URL + */ product.imageUrl}
+              src={/* process.env.PUBLIC_URL + */ "/" + product.imageUrl}
               alt={product.title}
               width={300}
               height={300}
