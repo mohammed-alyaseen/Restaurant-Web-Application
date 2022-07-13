@@ -9,22 +9,22 @@ class Sidebar extends Component {
     // const { categories } = this.props;
     const categories = [
       {
-        categoryId: 1,
+        id: 1,
         name: "Vegetables",
       },
       {
-        categoryId: 2,
+        id: 2,
         name: "FastFood",
       },
       {
-        categoryId: 3,
+        id: 3,
         name: "Drinks",
       },
     ];
     const categoryList = categories.length ? (
       categories.map((category: any) => {
         return (
-          <li value={category.name} key={category.productId}>
+          <li value={category.name} key={category.id}>
             <Link href="">{category.name}</Link>
           </li>
         );
