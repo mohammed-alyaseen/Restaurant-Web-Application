@@ -3,8 +3,8 @@ import Background from "../../assets/img/back3.jpg";
 // import { connect } from "react-redux";
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "../../components/navbar/Navbar";
-import Sidebar from "../../components/sidebar/Sidebar";
+import Navbar from "@/components/navbar/Navbar";
+import Sidebar from "@/components/sidebar/Sidebar";
 
 class ProductList extends Component {
   render() {

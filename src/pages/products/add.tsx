@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../components/navbar/Navbar";
+import Navbar from "@/components/navbar/Navbar";
 
 const ProductForm = () => {
   return (
@@ -22,7 +22,7 @@ const ProductForm = () => {
             type="text"
             placeholder="Price"
           />
-          <label for="Category">Categories :</label>
+          <label htmlFor="Category">Categories :</label>
           <select
             id="Category"
             className="form-control"
@@ -35,7 +35,7 @@ const ProductForm = () => {
             className="form-control"
             name="ImageUrl"
             type="text"
-            autocomplete="off"
+            autoComplete="off"
             placeholder="ImageUrl"
           />
           <input
