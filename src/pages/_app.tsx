@@ -1,6 +1,6 @@
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/font-awesome/css/font-awesome.min.css";
-import "../style/index.css";
+import "../style/globals.css";
 
 interface IPropMyApp {
   Component: any;
