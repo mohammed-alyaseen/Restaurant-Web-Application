@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import open from "../../assets/img/open.jpg";
+import Open from "../../../public/assets/img/open.jpg";
 // import { connect } from "react-redux";
 import Link from "next/link";
 import Image from "next/image";
@@ -36,7 +36,7 @@ class Sidebar extends Component {
       <>
         <nav id="sidebar">
           <div className="bordering">
-            <Image className="side-new" src={open} title="AdminPhoto" alt="" />
+            <Image className="side-new" src={Open} title="AdminPhoto" alt="" />
             <h3>TuhMoh</h3>
             <p id="index-title">
               If you are hungry, You have the right site for you <br /> (^_^)

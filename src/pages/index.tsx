@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import Shawarma from "../assets/img/Shawarma.jpg";
-import Soup from "../assets/img/Soup.jpg";
-import SwissPizza from "../assets/img/Swiss Pizza.jpg";
-import Pizza from "../assets/img/Pizza.jpg";
+import Shawarma from "../../public/assets/img/Shawarma.jpg";
+import Soup from "../../public/assets/img/Soup.jpg";
+import SwissPizza from "../../public/assets/img/Swiss Pizza.jpg";
+import Pizza from "../../public/assets/img/Pizza.jpg";
 import Image from "next/image";
 import Navbar from "@/components/navbar/Navbar";
 import Sidebar from "@/components/sidebar/Sidebar";

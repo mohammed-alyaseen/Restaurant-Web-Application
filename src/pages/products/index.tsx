@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Background from "../../assets/img/back3.jpg";
+import Background from "../../../public/assets/img/back3.jpg";
 // import { connect } from "react-redux";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,35 +14,35 @@ class ProductList extends Component {
         productId: 1,
         title: "Shawarma",
         price: "100",
-        imageUrl: "../../assets/Shawarma.jpg",
+        imageUrl: "/assets/img/Shawarma.jpg",
         categoryId: 2,
       },
       {
         productId: 2,
         title: "Soup",
         price: "50",
-        imageUrl: "../../assets/Soup.jpg",
+        imageUrl: "/assets/img/Soup.jpg",
         categoryId: 2,
       },
       {
         productId: 3,
         title: "Swiss Pizza",
         price: "200",
-        imageUrl: "../../assets/Swiss Pizza.jpg",
+        imageUrl: "/assets/img/Swiss Pizza.jpg",
         categoryId: 2,
       },
       {
         productId: 4,
         title: "Pizza",
         price: "150",
-        imageUrl: "../../assets/Pizza.jpg",
+        imageUrl: "/assets/img/Pizza.jpg",
         categoryId: 2,
       },
       {
         productId: 5,
         title: "Sushi",
         price: "200",
-        imageUrl: "../../assets/Sushi.jpg",
+        imageUrl: "/assets/img/Sushi.jpg",
         categoryId: 2,
       },
     ];
@@ -56,7 +56,7 @@ class ProductList extends Component {
             <Image
               className="show list"
               // the way of access to the public folder url not to use directly
-              src={/* process.env.PUBLIC_URL + */ "/" + product.imageUrl}
+              src={product.imageUrl}
               alt={product.title}
               width={300}
               height={300}
