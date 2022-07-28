@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@/components/navbar/Navbar";
 import Sidebar from "@/components/sidebar/Sidebar";
+import ProductCard from "@/components/productCard/ProductCard";
 
 class ProductList extends Component {
   render() {
@@ -53,20 +54,7 @@ class ProductList extends Component {
             className="product-list col-lg-3 col-md-4 col-sm-6"
             key={product.productId}
           >
-            <Image
-              className="show list"
-              // the way of access to the public folder url not to use directly
-              src={product.imageUrl}
-              alt={product.title}
-              width={300}
-              height={300}
-            />
-            <br />
-            <span className="title"> {product.title} </span>
-            <h4 className="price-btn btn btn-danger active">{product.price}</h4>
-            <Link href="" passHref>
-              <p className="click btn btn-info">Click to get</p>
-            </Link>
+            <ProductCard product={product} />
           </div>
         );
       })
