@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Background from "../../../public/assets/img/back3.jpg";
-// import { connect } from "react-redux";
 import Image from "next/image";
-import Link from "next/link";
 import Navbar from "@/components/navbar/Navbar";
 import Sidebar from "@/components/sidebar/Sidebar";
 import ProductCard from "@/components/productCard/ProductCard";
@@ -68,13 +66,15 @@ class ProductList extends Component {
           <Sidebar />
           <div className="product-bg" id="content">
             <div id="content">
-              <div className="row">
-                <div className="profile-image col-sm-12">
-                  <Image src={Background} alt="" />
+              <section className="section-products">
+                <div className="row">
+                  <div className="profile-image col-sm-12">
+                    <Image src={Background} alt="" />
+                  </div>
+                  {productList}
                 </div>
-                {productList}
-              </div>
-              <br />
+                <br />
+              </section>
             </div>
           </div>
         </div>
